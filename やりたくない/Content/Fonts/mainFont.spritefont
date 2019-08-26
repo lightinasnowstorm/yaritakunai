@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file contains an xml description of a font, and will be read by the XNA
+Framework Content Pipeline. Follow the comments to customize the appearance
+of the font in your game, and to change the characters which are available to draw
+with.
+-->
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics">
+  <Asset Type="Graphics:FontDescription">
+
+    <!--
+    Modify this string to change the font that will be imported.
+    -->
+    <FontName>Yu Gothic</FontName>
+
+    <!--
+    Size is a float value, measured in points. Modify this value to change
+    the size of the font.
+    -->
+    <Size>12</Size>
+
+    <!--
+    Spacing is a float value, measured in pixels. Modify this value to change
+    the amount of spacing in between characters.
+    -->
+    <Spacing>0</Spacing>
+
+    <!--
+    UseKerning controls the layout of the font. If this value is true, kerning information
+    will be used when placing characters.
+    -->
+    <UseKerning>true</UseKerning>
+
+    <!--
+    Style controls the style of the font. Valid entries are "Regular", "Bold", "Italic",
+    and "Bold, Italic", and are case sensitive.
+    -->
+    <Style>Regular</Style>
+
+    <!--
+    If you uncomment this line, the default character will be substituted if you draw
+    or measure text that contains characters which were not included in the font.
+    -->
+    <DefaultCharacter>*</DefaultCharacter>
+
+    <!--
+    CharacterRegions control what letters are available in the font. Every
+    character from Start to End will be built and made available for drawing. The
+    default range is from 32, (ASCII space), to 126, ('~'), covering the basic Latin
+    character set. The characters are ordered according to the Unicode standard.
+    See the documentation for more information.
+    -->
+    <CharacterRegions>
+      <CharacterRegion>
+        <Start>&#32;</Start>
+        <End>&#126;</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>&#12288;</Start>
+        <End>&#12543;</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>&#65280;</Start>
+        <End>&#65519;</End>
+      </CharacterRegion>
+      <!--Kanji-->
+      <!--<CharacterRegion>
+        <Start>&#19968;</Start>
+        <End>&#40879;</End>
+      </CharacterRegion>-->
+      <!--日本語-->
+      <CharacterRegion>
+        <Start>&#32066;</Start>
+        <End>&#32066;</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>&#20102;</Start>
+        <End>&#20102;</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>&#26085;</Start>
+        <End>&#26085;</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>&#26412;</Start>
+        <End>&#26412;</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>&#35486;</Start>
+        <End>&#35486;</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>&#35373;</Start>
+        <End>&#35373;</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>&#23450;</Start>
+        <End>&#23450;</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>&#36963;</Start>
+        <End>&#36963;</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>&#39131;</Start>
+        <End>&#39131;</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>&#32724;</Start>
+        <End>&#32724;</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>&#20307;</Start>
+        <End>&#20307;</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>&#20808;</Start>
+        <End>&#20808;</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>&#22238;</Start>
+        <End>&#22238;</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>&#36895;</Start>
+        <End>&#36895;</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>&#24230;</Start>
+        <End>&#24230;</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>&#21517;</Start>
+        <End>&#21517;</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>&#21069;</Start>
+        <End>&#21069;</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>&#20241;</Start>
+        <End>&#20241;</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>&#27490;</Start>
+        <End>&#27490;</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>&#21491;</Start>
+        <End>&#21491;</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>&#24038;</Start>
+        <End>&#24038;</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>&#19978;</Start>
+        <End>&#19979;</End>
+      </CharacterRegion>
+    </CharacterRegions>
+  </Asset>
+</XnaContent>
